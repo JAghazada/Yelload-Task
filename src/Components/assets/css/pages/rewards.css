@@ -1,0 +1,216 @@
+header {
+  /* position: absolute; */
+}
+.rewards-container {
+  background-color: #001312;
+  width: 100%;
+}
+
+.rewards-main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #001312;
+padding-top:50px ;
+  justify-content: space-between;
+  align-items: center;
+  min-height: calc(100vh - 275px);
+}
+.exchange-container {
+  width: 445px;
+  height: 234px;
+}
+.exchange-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.exchange-percent {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #d9d9d9;
+}
+.exchange-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  background: linear-gradient(
+    103.04deg,
+    rgba(255, 233, 134, 0.88) -25.17%,
+    #bc7e20 77.94%,
+    #a74d01 128.68%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+.exchange-item {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 15px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exchange-button {
+  margin: 180px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 16px 4px 0;
+
+  width: 319px;
+  height: 55px;
+
+  background: #333333;
+  border-radius: 12px;
+}
+.exchange-amount {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: -1.5px;
+
+  color: #ffffff;
+}
+.exchange-hpay-button > span {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 34px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.exchange-hpay-button {
+  width: 109px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    103.04deg,
+    rgba(255, 233, 134, 0.88) -25.17%,
+    #bc7e20 77.94%,
+    #a74d01 128.68%
+  );
+  backdrop-filter: blur(19.5px);
+  border-radius: 12px;
+}
+.ab-triangle,
+.ab-cubic,
+.ab-hexagon {
+  position: absolute !important;
+  z-index: 1;
+}
+.ab-cubic {
+  left: 50%;
+}
+.ab-triangle {
+  left: 78%;
+}
+.ab-hexagon {
+  right: 3%;
+  top: 50%;
+}
+.rewards-header-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.rewards-content {
+  font-weight: 400;
+  height: 240px;
+  margin-top: 20px;
+  width: 398px;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(218, 209, 212, 0.8);
+}
+@media screen and (max-width: 975px) {
+  footer {
+    margin-top: 0;
+  }
+  .exchange-button {
+    margin-top: 40px;
+  }
+  .rewards-main {
+    flex-direction: column;
+  }
+  .exchange-container {
+    height: 200px;
+  }
+  .rewards-header-text {
+    margin-top: 20px;
+  }
+  .rewards-content {
+    height: 168px;
+    font-size: 16px;
+  }
+  .rewards-content,
+  .rewards-header-text {
+    width: 342px;
+  }
+  .exchange-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .exchange-button {
+    margin: 30px auto;
+  }
+  .hpay-header-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    /* identical to box height */
+
+    /* Edmixgoldfont */
+
+    background: linear-gradient(
+        0deg,
+        rgba(209, 210, 215, 0.3),
+        rgba(209, 210, 215, 0.3)
+      ),
+      linear-gradient(307.92deg, #ecaf5a 0%, #89683d 56.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .exchange-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .exchange-item {
+    width: 34%;
+    margin-top: 10px;
+    border: none;
+  }
+  .ab-hexagon {
+    top: 94%;
+    right: -6%;
+  }
+}
+@media screen and (max-width: 1223px) {
+  .exchange-button {
+    margin-top: 30px;
+  }
+  .exchange-container {
+    margin: 20px auto;
+  }
+}

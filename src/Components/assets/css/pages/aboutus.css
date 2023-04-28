@@ -1,0 +1,8 @@
+@media screen and (max-width:975px) {
+    .aushpay,.austext{
+        margin-top: 40px;
+    }
+    .aushpay{
+     background: linear-gradient(137.43deg, rgba(255, 255, 255, 0.0385) 3.89%, rgba(195, 210, 191, 0.0245) 54.78%, rgba(255, 255, 255, 0.042) 100%);;
+    }
+}

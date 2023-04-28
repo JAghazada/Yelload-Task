@@ -1,0 +1,39 @@
+.support-text > h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+}
+.support-text > p {
+    font-size: 20px;
+line-height: 30px;
+color: #DAD1D4;
+font-weight: 400;
+}
+.support-main{
+    padding-top: 50px;
+    display: flex;
+    align-items:start;
+}
+.support-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:975px ) {
+    .support-main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:1243px ) {
+    .support-main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
